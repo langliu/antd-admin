@@ -10,8 +10,7 @@ declare module 'axios' {
 
 const instance = axios.create({
   // 请求域名
-  baseURL:
-    process.env.NODE_ENV === 'production' ? 'http://192.168.0.1:8000' : '',
+  baseURL: process.env.BASE_URL,
   // 过期时间
   timeout: 5000,
   // 请求头
