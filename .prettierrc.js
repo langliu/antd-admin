@@ -1,5 +1,5 @@
 module.exports = {
-  printWidth: 80,
+  printWidth: 120,
   tabWidth: 2,
   useTabs: false,
   singleQuote: true, // 使用单引号而不是双引号。
